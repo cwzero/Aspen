@@ -1,10 +1,7 @@
-#include "App/App.h"
-#include "Game/Game.h"
+#include "Aspen/App/App.h"
+#include "Aspen/Game/Game.h"
 
 void main()
 {
-	Game *game = new Game();
-	App *app = new App(game);
-	app->Run();
-	delete app;
+
 }
