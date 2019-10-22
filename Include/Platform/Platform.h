@@ -2,7 +2,5 @@
 
 class Platform
 {
-public:
-	Platform();
-	~Platform();
+
 };

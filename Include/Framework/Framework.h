@@ -2,7 +2,5 @@
 
 class Framework
 {
-public:
-	Framework();
-	~Framework();
+
 };

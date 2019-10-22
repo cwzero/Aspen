@@ -1,11 +1,16 @@
 #include "App/App.h"
 
-App::App() 
+App::App(Game *g) : driver(new Driver(g))
 {
 
 }
 
-App::~App() 
+App::~App()
 {
+	delete driver;
+}
 
+void App::Run()
+{
+	driver->SetupEnvironment();
 }

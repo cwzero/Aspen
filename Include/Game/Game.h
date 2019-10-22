@@ -1,6 +1,6 @@
 #pragma once
 
-class Render
+class Game
 {
 
 };
