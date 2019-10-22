@@ -1,6 +1,9 @@
 #pragma once
 
-class Platform
+namespace Aspen
 {
+	class Platform
+	{
 
-};
+	};
+}

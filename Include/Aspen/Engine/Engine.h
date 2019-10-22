@@ -1,5 +1,9 @@
 #pragma once
 
-class Engine 
+namespace Aspen
 {
-};
+	class Engine
+	{
+
+	};
+}

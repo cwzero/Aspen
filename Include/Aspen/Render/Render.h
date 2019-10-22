@@ -1,6 +1,9 @@
 #pragma once
 
-class Render
+namespace Aspen
 {
+	class Render
+	{
 
-};
+	};
+}

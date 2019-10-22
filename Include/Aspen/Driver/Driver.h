@@ -1,6 +1,9 @@
 #pragma once
 
-class Driver 
+namespace Aspen
 {
+	class Driver
+	{
 
-};
+	};
+}

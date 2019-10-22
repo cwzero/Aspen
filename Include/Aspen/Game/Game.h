@@ -1,6 +1,9 @@
 #pragma once
 
-class Game
+namespace Aspen
 {
+	class Game
+	{
 
-};
+	};
+}

@@ -1,6 +1,9 @@
 #pragma once
 
-class App 
+namespace Aspen
 {
+	class App
+	{
 
-};
+	};
+}
