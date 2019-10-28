@@ -2,8 +2,11 @@
 
 namespace Aspen
 {
-	class Framework
+	class Platform
 	{
+	public:
 
+	private:
+	
 	};
 }

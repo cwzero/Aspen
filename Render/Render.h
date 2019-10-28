@@ -2,8 +2,11 @@
 
 namespace Aspen
 {
-	class Engine
+	class Render
 	{
+	public:
+	
+	private:
 
 	};
 }

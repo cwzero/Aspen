@@ -2,8 +2,11 @@
 
 namespace Aspen
 {
-	class App
+	class Engine
 	{
+	public:
 
+	private:
+	
 	};
 }

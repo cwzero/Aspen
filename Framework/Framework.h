@@ -2,8 +2,11 @@
 
 namespace Aspen
 {
-	class Game
+	class Framework
 	{
+	public:
+	
+	private:
 
 	};
 }

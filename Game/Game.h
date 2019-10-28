@@ -2,8 +2,11 @@
 
 namespace Aspen
 {
-	class Platform
+	class Game
 	{
+	public:
+	
+	private:
 
 	};
 }

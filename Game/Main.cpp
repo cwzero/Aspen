@@ -1,5 +1,5 @@
-#include "Aspen/App/App.h"
-#include "Aspen/Game/Game.h"
+#include "App/App.h"
+#include "Game/Game.h"
 
 void main()
 {

@@ -4,6 +4,9 @@ namespace Aspen
 {
 	class Driver
 	{
+	public:
 
+	private:
+	
 	};
 }

@@ -2,8 +2,11 @@
 
 namespace Aspen
 {
-	class Render
+	class App
 	{
+	public:
 
+	private:
+	
 	};
 }
