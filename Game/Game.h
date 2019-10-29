@@ -8,6 +8,7 @@ namespace Aspen
 	class Game : public virtual System
 	{
 	public:
+		Game();
 		Game(Engine *);
 		virtual ~Game();
 

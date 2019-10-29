@@ -8,6 +8,7 @@ namespace Aspen
 	class Framework : public virtual System
 	{
 	public:
+		Framework();
 		Framework(Platform *);
 		virtual ~Framework();
 

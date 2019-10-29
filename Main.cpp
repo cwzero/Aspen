@@ -1,3 +1,6 @@
+#include "Platform/System.h"
+#include "Engine/Engine.h"
+#include "Game/Game.h"
 #include "Driver/Driver.h"
 
 using namespace Aspen;

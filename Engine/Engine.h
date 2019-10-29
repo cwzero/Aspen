@@ -8,6 +8,7 @@ namespace Aspen
 	class Engine : public virtual System
 	{
 	public:
+		Engine();
 		Engine(Framework *);
 		virtual ~Engine();
 

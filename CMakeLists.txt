@@ -24,3 +24,6 @@ add_subdirectory(Engine)
 add_subdirectory(Framework)
 add_subdirectory(Game)
 add_subdirectory(Platform)
+
+add_executable(Aspen Main.cpp)
+target_link_libraries(Aspen Driver Engine Framework Game Platform)

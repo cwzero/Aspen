@@ -1,13 +1,12 @@
+#include "Platform/System.h"
 #include "Driver/Driver.h"
+#include "Game/Game.h"
 
 using namespace Aspen;
 
-Driver::Driver() : System()
+Driver::Driver() : System(),
+_game(new Game())
 {
-	_platform = new Platform();
-	_framework = new Framework(_platform);
-	_engine = new Engine(_framework);
-	_game = new Game(_engine);
 }
 
 Driver::~Driver()
@@ -41,4 +40,9 @@ void Driver::stop()
 	_game->stop();
 
 	System::stop();
+}
+
+bool Driver::isFinished()
+{
+	return _game->isFinished();
 }

@@ -4,6 +4,11 @@
 
 using namespace Aspen;
 
+Engine::Engine() : Engine(new Framework())
+{
+
+}
+
 Engine::Engine(Framework *f) : System(),
 	_framework(f)
 {

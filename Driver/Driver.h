@@ -1,14 +1,10 @@
 #pragma once
 
-#include "Platform/System.h"
-
-#include "Engine/Engine.h"
-#include "Framework/Framework.h"
-#include "Game/Game.h"
-#include "Platform/Platform.h"
-
 namespace Aspen
 {
+	class Game;
+	class System;
+	
 	class Driver : public virtual System
 	{
 	public:
@@ -20,13 +16,8 @@ namespace Aspen
 		virtual void run();
 		virtual void stop();
 
-		bool isFinished() {
-			return _game->isFinished();
-		}
+		bool isFinished();
 	private:
-		Engine *_engine;
-		Framework *_framework;
 		Game *_game;
-		Platform *_platform;
 	};
 }

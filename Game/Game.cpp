@@ -2,10 +2,12 @@
 #include "Engine/Engine.h"
 #include "Game/Game.h"
 
-#include <iostream>
-
 using namespace Aspen;
-using namespace std;
+
+Game::Game() : Game(new Engine())
+{
+
+}
 
 Game::Game(Engine *e) : System(),
 	_engine(e)

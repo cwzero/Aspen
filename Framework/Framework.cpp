@@ -4,6 +4,11 @@
 
 using namespace Aspen;
 
+Framework::Framework() : Framework(new Platform())
+{
+
+}
+
 Framework::Framework(Platform *p) : System(),
 	_platform(p)
 {
