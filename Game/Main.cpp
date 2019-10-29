@@ -1,6 +1,3 @@
-#include "App/App.h"
-#include "Game/Game.h"
-
 #include "Driver/Driver.h"
 
 using namespace Aspen;
@@ -11,6 +8,12 @@ void main()
 
 	driver->init();
 	driver->start();
+
+	do 
+	{
+		driver->run();
+	} while (!driver->isFinished());
+
 	driver->stop();
 
 	delete driver;

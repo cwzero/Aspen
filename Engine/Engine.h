@@ -1,19 +1,21 @@
 #pragma once
 
-#include "Platform/System.h"
-
 namespace Aspen
 {
+	class System;
+	class Framework;
+
 	class Engine : public virtual System
 	{
 	public:
-		Engine();
+		Engine(Framework *);
 		virtual ~Engine();
 
 		virtual void init();
 		virtual void start();
+		virtual void run();
 		virtual void stop();
 	private:
-	
+		Framework *_framework;
 	};
 }

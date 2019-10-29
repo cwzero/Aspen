@@ -19,10 +19,8 @@ endif()
 
 include_directories(${Aspen_SOURCE_DIR})
 
-add_subdirectory(App)
 add_subdirectory(Driver)
 add_subdirectory(Engine)
 add_subdirectory(Framework)
 add_subdirectory(Game)
 add_subdirectory(Platform)
-add_subdirectory(Render)

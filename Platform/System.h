@@ -9,6 +9,7 @@ namespace Aspen
 
 		  virtual void init();
 		  virtual void start();
+		  virtual void run();
 		  virtual void stop();
     protected:
 		  System();

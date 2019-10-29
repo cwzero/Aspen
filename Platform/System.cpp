@@ -22,6 +22,11 @@ void System::start()
 
 }
 
+void System::run()
+{
+
+}
+
 void System::stop()
 {
 

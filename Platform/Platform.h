@@ -1,9 +1,9 @@
 #pragma once
 
-#include "Platform/System.h"
-
 namespace Aspen
 {
+	class System;
+
 	class Platform : public virtual System
 	{
 	public:
@@ -12,6 +12,7 @@ namespace Aspen
 
 		virtual void init();
 		virtual void start();
+		virtual void run();
 		virtual void stop();
 	private:
 	
